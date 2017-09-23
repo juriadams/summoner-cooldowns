@@ -13,7 +13,7 @@ A small application designed for tracking the enemies' summoner spell cooldown i
 - [x] Fixed a lot of bugs
 - [x] Added a clean and nice ingame UI
 - [x] Updated for all new released champions
-- [ ] Add feature for typing role besides champion
+- [ ] Add feature for typing role name instead of champ name
 - [ ] I should probably add a wiki page... This readme is miles long...
 
 # What spells are accepted?
