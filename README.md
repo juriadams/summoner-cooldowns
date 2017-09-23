@@ -12,7 +12,7 @@ A small application designed for tracking the enemies' summoner spell cooldown i
 
 Okay, this is a little bit tricky... The developer of the main part of this program has gotten confirmation of this program by a rioter before. You can [click here to see the comment](https://www.reddit.com/r/leagueoflegends/comments/4c78hh/i_wrote_a_legal_program_to_track_summoner_spells/d1g2dcu/).<br />
 Since I have only fixed a few bugs of the past version, added a nice UI and added the newest champions, the base of the program remains the same and should therefor not break any other rules. </br >
-Basically, it's the same as running an app on your phone for tracking cooldowns. You don't modify game files and you still have to enter the summoners manually. (type `/n ez f` for example)
+- *Basically, it's the same as running an app on your phone for tracking cooldowns. You don't modify game files and you still have to enter the summoners manually. (type `/n ez f` for example)*
 
 # How do I run this?
 
@@ -22,7 +22,5 @@ You can find all releases and versions of the program here: [Releases Page](http
 
 # Licensing
 
-This project was initially created by [Jonathan Dolbee](https://github.com/d0lb33/) and is now continued by [4dams](https://github.com/4dams/). I have already asked the original creator if he grants me full permission to continue his project but haven't received an answer so far. The old repository was **not licensed.**
-
-# Disclaimer
-
+This project was initially created by [Jonathan Dolbee](https://github.com/d0lb33/) and is now continued by [4dams](https://github.com/4dams/). I have already asked the original creator if he grants me full permission to continue his project but haven't received an answer so far. The old repository was **not licensed.** </br >
+If the original creator does not want me to continue his project, I will of course respect that and stop working with this repository and maybe delete it.
