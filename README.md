@@ -1,6 +1,6 @@
 # 4dams/Summoner
 
-A small application designed for tracking the enemies' summoner spell cooldown in League of Legends.
+A small application designed for tracking the enemies' summoner spell cooldown in League of Legends using short ingame chat commands and a clean user interface. :+1:
 
 
 # Screenshots
