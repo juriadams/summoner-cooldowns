@@ -39,7 +39,7 @@ If you still don't trust me, you can also compile the program yourself.*
 
 # Is this program allowed by Riot Games?
 
-Okay, this is a little bit tricky... The developer of the main part of this program has gotten confirmation of this program by a rioter before. You can [click here to see the comment](https://www.reddit.com/r/leagueoflegends/comments/4c78hh/i_wrote_a_legal_program_to_track_summoner_spells/d1g2dcu/).<br />
+Okay, this is a little bit tricky... The developer of the main part of this program has gotten confirmation of this program by a rioter before. You can [click here to see the comment](https://www.reddit.com/r/leagueoflegends/comments/4c78hh/i_wrote_a_legal_program_to_track_summoner_spells/d1g2dcu/) by Riot Sargonas on Reddit.<br />
 Since the base of the program remains the same, it should therefor not break any other rules. </br >
 - *Basically, it's the same as running an app on your phone for tracking cooldowns. You don't modify game files and you still have to enter the summoners manually. (type `/n ez f` for example)*
 
