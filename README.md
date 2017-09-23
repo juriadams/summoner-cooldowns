@@ -5,8 +5,8 @@ A small application designed for tracking the enemies' summoner spell cooldown i
 
 # Screenshots
 
-![Main Window](https://i.4da.ms/e78b2c3.png)<br />
-![Ingame Preview](https://i.4da.ms/96bb07d.gif)
+[Main Window](https://i.4da.ms/e78b2c3.png)<br />
+[Ingame Preview](https://i.4da.ms/96bb07d.gif)
 
 # Is this program legal???
 
