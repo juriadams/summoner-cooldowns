@@ -14,10 +14,8 @@
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         If start = True Then
-            ' X position for centered above scoreboard: 730
-            ' Y position for centered above scoreboard: 155
-            ' X position for centered above status hud: 750
-            ' Y position for centered above status hud: 900
+            ' X position for centered: 349
+            ' Y position for centered: 987
             MsgBox("Make sure to start League Of Legends in borderless mode, else wise this will not work!", MsgBoxStyle.Information)
             Label7.Text = "Change ingame position:"
             InGameTracker.Show()

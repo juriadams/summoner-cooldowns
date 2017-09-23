@@ -132,7 +132,7 @@ Partial Class Main
         Me.winposX.Name = "winposX"
         Me.winposX.Size = New System.Drawing.Size(55, 20)
         Me.winposX.TabIndex = 8
-        Me.winposX.Text = "60"
+        Me.winposX.Text = "349"
         '
         'winposY
         '
@@ -140,7 +140,7 @@ Partial Class Main
         Me.winposY.Name = "winposY"
         Me.winposY.Size = New System.Drawing.Size(55, 20)
         Me.winposY.TabIndex = 9
-        Me.winposY.Text = "1002"
+        Me.winposY.Text = "987"
         '
         'Label5
         '

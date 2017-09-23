@@ -51,11 +51,12 @@ Partial Class InGameTracker
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label1.AutoSize = True
         Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Franklin Gothic Medium", 20.0!)
+        Me.Label1.Font = New System.Drawing.Font("Segoe UI Semibold", 20.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(69, 27)
+        Me.Label1.Location = New System.Drawing.Point(17, 5)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(11, 5, 3, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(304, 34)
+        Me.Label1.Size = New System.Drawing.Size(171, 74)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "Summoner Spell Tracker"
         Me.Label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
@@ -74,11 +75,13 @@ Partial Class InGameTracker
         Me.FlowLayoutPanel1.Controls.Add(Me.SummSpell4)
         Me.FlowLayoutPanel1.Controls.Add(Me.SummSpell5)
         Me.FlowLayoutPanel1.Controls.Add(Me.SummSpell6)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Label1)
         Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
-        Me.FlowLayoutPanel1.Font = New System.Drawing.Font("Microsoft Sans Serif", 10.0!)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(35, 12)
+        Me.FlowLayoutPanel1.Font = New System.Drawing.Font("Segoe UI", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.FlowLayoutPanel1.ForeColor = System.Drawing.Color.White
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(2, 2)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(377, 63)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(208, 91)
         Me.FlowLayoutPanel1.TabIndex = 2
         '
         'SummSpell1
@@ -121,7 +124,7 @@ Partial Class InGameTracker
         '
         Me.SummSpell5.AutoSize = True
         Me.SummSpell5.Font = New System.Drawing.Font("Franklin Gothic Medium", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SummSpell5.Location = New System.Drawing.Point(9, 0)
+        Me.SummSpell5.Location = New System.Drawing.Point(3, 60)
         Me.SummSpell5.Name = "SummSpell5"
         Me.SummSpell5.Size = New System.Drawing.Size(0, 15)
         Me.SummSpell5.TabIndex = 4
@@ -130,7 +133,7 @@ Partial Class InGameTracker
         '
         Me.SummSpell6.AutoSize = True
         Me.SummSpell6.Font = New System.Drawing.Font("Franklin Gothic Medium", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.SummSpell6.Location = New System.Drawing.Point(9, 15)
+        Me.SummSpell6.Location = New System.Drawing.Point(3, 75)
         Me.SummSpell6.Name = "SummSpell6"
         Me.SummSpell6.Size = New System.Drawing.Size(0, 15)
         Me.SummSpell6.TabIndex = 5
@@ -177,8 +180,7 @@ Partial Class InGameTracker
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
         Me.BackgroundImage = CType(resources.GetObject("$this.BackgroundImage"), System.Drawing.Image)
-        Me.ClientSize = New System.Drawing.Size(448, 79)
-        Me.Controls.Add(Me.Label1)
+        Me.ClientSize = New System.Drawing.Size(211, 93)
         Me.Controls.Add(Me.FlowLayoutPanel1)
         Me.Controls.Add(Me.Label3)
         Me.ForeColor = System.Drawing.Color.White

@@ -46,7 +46,6 @@ Public Class InGameTracker
     Dim Summ6TimerReady As Integer = 15
     Dim Summ6IsReady As Boolean
 
-
     Private Sub Form_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
         Me.Location = New Point(My.Settings.winposx, My.Settings.winposy)
@@ -84,6 +83,7 @@ Public Class InGameTracker
         Dim debugMode As Boolean = False
 
         If CapTxt = "League of Legends (TM) Client" Or debugMode = True Then
+            ' League of Legends (TM) Client
 
             Me.TopMost = True
             Me.Show()
@@ -99,30 +99,30 @@ Public Class InGameTracker
             Try
 
                 Dim keywords = {
-                    "atrox", "akali", "ahri", "mumu", "ali", "nivia", "annie", "azir", "ashe",
+                    "atrox", "aurelion", "akali", "ahri", "mumu", "ali", "nivia", "annie", "azir", "ashe",
                     "bard", "blitz", "brand", "braum",
-                    "cait", "cass", "cho", "cork",
+                    "cait", "cass", "cho", "cork", "cami",
                     "dar", "dia", "mundo", "dr", "drav",
                     "ek", "eli", "eve", "ez",
                     "fid", "fio", "fiz",
                     "gal", "grag", "gang", "gp", "gar", "gnar", "grav",
                     "hec", "heim",
-                    "ill", "ire",
+                    "ill", "ire", "ivern",
                     "jar", "j4", "jay", "jan", "jax", "jhin", "jinx",
-                    "kali", "karm", "kart", "kas", "kat", "ken", "kha", "kog", "kay", "kin",
+                    "kali", "karm", "kart", "kas", "kat", "ken", "kha", "kog", "kay", "kin", "kled", "kayn",
                     "lb", "lebl", "lee", "leo", "lis", "luc", "lux", "lu",
                     "malz", "malp", "mao", "morg", "mord", "mf", "miss",
                     "nam", "nas", "nau", "nid", "noc", "nu",
-                    "ola", "ori",
+                    "ola", "ori", "orn",
                     "pan", "pop",
                     "qui",
-                    "ram", "rek", "reng", "renek", "rum", "riv", "ryz",
+                    "ram", "rakan", "rek", "reng", "renek", "rum", "riv", "ryz",
                     "sej", "she", "shy", "sion", "ska", "swa", "syn", "sha", "sin", "siv", "son", "sor", "raka",
-                    "tar", "tru", "tk", "tah", "tal", "tee", "thre", "tri", "try", "tf", "twi", "twit",
+                    "tar", "tru", "tk", "tah", "tal", "tee", "thre", "tri", "try", "tf", "twi", "twit", "tali",
                     "ur", "udy",
                     "vel", "vi", "vik", "vlad", "vol", "var", "vay", "vei",
                     "war", "ww", "wu",
-                    "xer", "xin",
+                    "xer", "xin", "xayah",
                     "yor", "yas", "yi",
                     "zac", "zed", "zig", "zy", "zil"}
                 'Dim keywords = {"ezreal f", "ez f", "ezreal b", "ez b", "ez i", "ezreal i", "ez g", "ezreal g", "ez t", "ezreal t", "ez e", "ezreal e", "yasuo f", "yas f", "yas b", "yasuo b", "yasuo i", "yas i", "yasuo g", "yas g", "yasuo t", "yas t", "yasuo e", "yas e", "ashe f", "ashe b", "ashe i", "ashe g", "ashe t", "ashe e", "soraka f", "raka f", "soraka b", "raka b", "soraka i", "raka i", "soraka g", "raka g", "soraka t", "raka t", "soraka e", "raka e", "janna f", "jan f", "janna b", "jan b", "janna i", "jan i", "janna g", "jan g", "janna t", "jan t", "janna e", "jan e", "kalista f", "kali f", "kalista b", "kali b", "kalista i", "kali i", "kalista g", "kali  g", "kalista e", "kali  e", "twitch f", "twit f", "twitch b", "twit b", "twitch i", "twit i", "twitch g", "twit  g", "twitch e", "twit  e", "lulu f", "lulu b", "lulu i", "lulu  g", "lulu  e"}
@@ -140,6 +140,42 @@ Public Class InGameTracker
                         Dim champName As String = lifesaver.Remove(lifesaver.Length - 1)
 
 #Region "champnames"
+
+                        If champName.StartsWith("orn") Then
+                            champName = "Ornn "
+                        End If
+
+                        If champName.StartsWith("kayn") Then
+                            champName = "Kayn "
+                        End If
+
+                        If champName.StartsWith("camille") Or champName.StartsWith("cami") Then
+                            champName = "Camille "
+                        End If
+
+                        If champName.StartsWith("ivern") Then
+                            champName = "Ivern "
+                        End If
+
+                        If champName.StartsWith("kled") Then
+                            champName = "Kled "
+                        End If
+
+                        If champName.StartsWith("taliyah") Or champName.StartsWith("tali") Then
+                            champName = "Taliyah "
+                        End If
+
+                        If champName.StartsWith("aurelion") Or champName.StartsWith("as") Then
+                            champName = "Aurelion Sol "
+                        End If
+
+                        If champName.StartsWith("xayah") Then
+                            champName = "Xayah "
+                        End If
+
+                        If champName.StartsWith("rakan") Then
+                            champName = "Rakan "
+                        End If
 
                         If champName.StartsWith("ashe") Then
                             champName = "Ashe "
