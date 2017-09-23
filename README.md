@@ -20,14 +20,14 @@ A small application designed for tracking the enemies' summoner spell cooldown i
 Once ingame, you can type `/n ashe f` for example so start tracking cooldown for Ashe's flash. </br >
 You can use the name of every champion and then the first letter of every summoner spell.
 
-- [x] **`F`** for Flash
-- [x] **`B`** for Barrier
-- [x] **`H`** for Heal
-- [x] **`I`** for Ignite
-- [x] **`C`** for Cleanse
-- [x] **`G`** for Ghost
-- [x] **`E`** for Exhaust
-- [x] **`T`** for Teleport
+- [x] **`F`** for **F**lash
+- [x] **`B`** for **B**arrier
+- [x] **`H`** for **H**eal
+- [x] **`I`** for **I**gnite
+- [x] **`C`** for **C**leanse
+- [x] **`G`** for **G**host
+- [x] **`E`** for **E**xhaust
+- [x] **`T`** for **T**eleport
 
 # How do I run this program?
 
