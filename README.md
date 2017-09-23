@@ -18,7 +18,8 @@ A small application designed for tracking the enemies' summoner spell cooldown i
 
 To download and run the program, please head over to the releases page of this repository. </br >
 You can find all releases and versions of the program here: [Releases Page](https://github.com/4dams/Summoner/releases) </br >
-**There may be some issues with anti viruses false detecting. You can see the full source code here on github and verify yourself that there isn't and malware or other stuff integrated in the program.** If you still don't trust me, you can also compile the program yourself.
+- ***There may be some issues with anti viruses false detecting. You can see the full source code here on github and verify yourself that there isn't and malware or other stuff integrated in the program.** </br >
+If you still don't trust me, you can also compile the program yourself.*
 
 # Is this program allowed by Riot Games?
 
