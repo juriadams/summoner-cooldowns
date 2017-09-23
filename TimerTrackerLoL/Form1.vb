@@ -99,7 +99,7 @@ Public Class InGameTracker
             Try
 
                 Dim keywords = {
-                    "atrox", "aurelion", "akali", "ahri", "mumu", "ali", "nivia", "annie", "azir", "ashe",
+                    "atrox", "aurelion", "akali", "ahri", "mumu", "ali", "nivia", "annie", "azir", "ashe", "adc",
                     "bard", "blitz", "brand", "braum",
                     "cait", "cass", "cho", "cork", "cami",
                     "dar", "dia", "mundo", "dr", "drav",
@@ -108,17 +108,17 @@ Public Class InGameTracker
                     "gal", "grag", "gang", "gp", "gar", "gnar", "grav",
                     "hec", "heim",
                     "ill", "ire", "ivern",
-                    "jar", "j4", "jay", "jan", "jax", "jhin", "jinx",
+                    "jar", "j4", "jay", "jan", "jax", "jhin", "jinx", "jung",
                     "kali", "karm", "kart", "kas", "kat", "ken", "kha", "kog", "kay", "kin", "kled", "kayn",
                     "lb", "lebl", "lee", "leo", "lis", "luc", "lux", "lu",
-                    "malz", "malp", "mao", "morg", "mord", "mf", "miss",
+                    "malz", "malp", "mao", "morg", "mord", "mf", "miss", "mid",
                     "nam", "nas", "nau", "nid", "noc", "nu",
                     "ola", "ori", "orn",
                     "pan", "pop",
                     "qui",
                     "ram", "rakan", "rek", "reng", "renek", "rum", "riv", "ryz",
-                    "sej", "she", "shy", "sion", "ska", "swa", "syn", "sha", "sin", "siv", "son", "sor", "raka",
-                    "tar", "tru", "tk", "tah", "tal", "tee", "thre", "tri", "try", "tf", "twi", "twit", "tali",
+                    "sej", "she", "shy", "sion", "ska", "swa", "syn", "sha", "sin", "siv", "son", "sor", "raka", "supp",
+                    "tar", "tru", "tk", "tah", "tal", "tee", "thre", "tri", "try", "tf", "twi", "twit", "tali", "top",
                     "ur", "udy",
                     "vel", "vi", "vik", "vlad", "vol", "var", "vay", "vei",
                     "war", "ww", "wu",
@@ -140,6 +140,25 @@ Public Class InGameTracker
                         Dim champName As String = lifesaver.Remove(lifesaver.Length - 1)
 
 #Region "champnames"
+                        If champName.StartsWith("supp") Then
+                            champName = "Support "
+                        End If
+
+                        If champName.StartsWith("adc") Then
+                            champName = "ADC "
+                        End If
+
+                        If champName.StartsWith("mid") Then
+                            champName = "Mid "
+                        End If
+
+                        If champName.StartsWith("jung") Then
+                            champName = "Jungle "
+                        End If
+
+                        If champName.StartsWith("top") Then
+                            champName = "Top "
+                        End If
 
                         If champName.StartsWith("orn") Then
                             champName = "Ornn "
