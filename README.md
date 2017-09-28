@@ -46,5 +46,5 @@ Since the base of the program remains the same, it should therefor not break any
 
 # Licensing
 
-This project was initially created by [Jonathan Dolbee](https://github.com/d0lb33/) and is now continued by [4dams](https://github.com/4dams/) with full permission of the original creator. The [olrd repository](https://github.com/d0lb33/TimerTracker) was **not licensed.** </br >
+This project was initially created by [Jonathan Dolbee](https://github.com/d0lb33/) and is now continued by [4dams](https://github.com/4dams/) with full permission of the original creator. The [old repository](https://github.com/d0lb33/TimerTracker) was **not licensed.** </br >
 Also, this project has absolutely nothing to do with League of Legends / Riot Games.
