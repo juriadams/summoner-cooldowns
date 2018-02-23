@@ -48,4 +48,4 @@ Since the base of the program remains the same, it should therefor not break any
 
 This project was initially created by [Jonathan Dolbee](https://github.com/d0lb33/) and is now continued by [4dams](https://github.com/4dams/) with full permission of the original creator. The [old repository](https://github.com/d0lb33/TimerTracker) was **not licensed.** </br >
 
-Also, This project isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends.
+Also, this project isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends.
