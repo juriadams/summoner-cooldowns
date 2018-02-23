@@ -1,6 +1,6 @@
 ![Project Icon](https://i.4da.ms/project_summoner_icon.png)
 
-# /4dams/Summoner
+# Summoner
 
 A small application designed for tracking the enemies' summoner spell cooldown in League of Legends using short ingame chat commands and a clean user interface. :+1:
 
@@ -47,4 +47,5 @@ Since the base of the program remains the same, it should therefor not break any
 # Licensing
 
 This project was initially created by [Jonathan Dolbee](https://github.com/d0lb33/) and is now continued by [4dams](https://github.com/4dams/) with full permission of the original creator. The [old repository](https://github.com/d0lb33/TimerTracker) was **not licensed.** </br >
-Also, this project has absolutely nothing to do with League of Legends / Riot Games.
+
+Also, This project isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing League of Legends.
